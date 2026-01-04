@@ -19,3 +19,10 @@ Commit Checkpoint (created a checkpoint for our code that we can revisit back to
 Now currently, we've got our local git tracking system for our codebase (in the hidden .git file) so if we want to store this somewhere (like a google drive for our codebase) online, we can use github. Which will store our whole repo online. It'll store all the commited version and current version of our code along with our commit messages. 
 
 It along with git helps us collaborate in our projects by creating multiple copies of our project and giving them to the collaborators which make their own changes in their own created branches and then merge them to provide us with a final good code.
+
+
+
+Suppose I updated this file and I want to go back to the previous changes, then I'll run this following command:
+
+git restore <filename>
+this takes me to that previous saved checkpoint of that file.
