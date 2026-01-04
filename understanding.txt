@@ -1,0 +1,21 @@
+Working directory (git init) (where we edit/code our files)
+|
+|  git add . 
+|
+Staging Area (preparing area for commiting the selected files and making a checkpoint for our codebase that we can revisit back to, later, even after further commits down the line)
+|
+| git commit -m "mssg"
+|
+Commit Checkpoint (created a checkpoint for our code that we can revisit back to if things get ugly or even normally we can visit this. We're tracking our code versions.)
+
+(git status) can be used to see which files are untracked currently (waiting to be put into the staging area) and also which files are in the staging area, waiting to be commited.
+
+
+|
+| git push origin main (to take from our local machine to github repo)  or git pull origin main (to take from github repo to our local machine)
+|
+
+
+Now currently, we've got our local git tracking system for our codebase (in the hidden .git file) so if we want to store this somewhere (like a google drive for our codebase) online, we can use github. Which will store our whole repo online. It'll store all the commited version and current version of our code along with our commit messages. 
+
+It along with git helps us collaborate in our projects by creating multiple copies of our project and giving them to the collaborators which make their own changes in their own created branches and then merge them to provide us with a final good code.
