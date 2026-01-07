@@ -34,3 +34,12 @@ git restore --staged file.txt  -> To remove the files from the staging area but 
     git reset HEAD~1 (keeps changes in the working directory)
 
     git reset --hard HEAD~1 (discards/permanently deletes uncommitted work and takes us back to the prev commit.)
+
+
+
+
+git log 
+   - To see all the commit history
+
+git log --online 
+   - To see all the commit history in one line
