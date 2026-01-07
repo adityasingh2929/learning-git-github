@@ -15,3 +15,10 @@ Commands related to branches:
     5. Create and switch in one command
         git switch -c <branch-name>
         
+
+MERGING BRANCHES:
+    To merge a branch in the master branch you've to be in master branch first, then:
+        git merge <branch-name>
+
+Deleting a branch:
+    git branch -d <branch-name>
