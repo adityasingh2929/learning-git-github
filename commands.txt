@@ -1,0 +1,36 @@
+git status
+
+git init
+
+git clone <link>
+
+git add .
+
+git restore .
+
+git commit -m "mssg"
+
+git push origin main
+
+git pull  origin main
+
+git diff -> shows what you've changed but haven't staged  yet.
+
+git diff --staged   -> Shows what'll go into your next commit.
+
+git restore --staged file.txt  -> To remove the files from the staging area but keep the changes.
+
+# When you've got a new file and you've to add it to the previous commit from
+
+    # Stage the forgotten file  
+        git add forgotten.txt
+    
+    # Amend the previous commit 
+        git commit --amend -m "New commit message"
+
+# Reset to prev commit:
+    git reset --soft Head~1  -> keeps changes in staging (soft reset)
+
+    git reset HEAD~1 (keeps changes in the working directory)
+
+    git reset --hard HEAD~1 (discards/permanently deletes uncommitted work and takes us back to the prev commit.)
