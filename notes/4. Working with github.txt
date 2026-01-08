@@ -2,10 +2,10 @@
 
 1. You've got your project somewhat going on your local computer.
 
-2. You create a repo on the github and copy its link
+2. You create a repo on the github and copy its link      [no license,gitignore,REAMDE.md file for now]
 
 3. come to vscode and in your local machine directory:
-    git remote add origin <repo-link>
+    git remote add origin <repo-link>     
     git branch -M main  [renaming the master to main as in github, its main, not master.].
     git push origin main [pushing all the code to github repo].
 
@@ -18,4 +18,3 @@
 
     git clone <repo-link>
 
-    

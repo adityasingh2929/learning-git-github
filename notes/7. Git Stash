@@ -1,0 +1,27 @@
+Git stash is used so we can temporarily store our unsaved changes of the project.
+
+This situation arises when suppose you're working on the main branch and trying to improve the UI and then you get a call from your boss saying that you need to fix a bug instantly that is causing the website to go down, now you need to stop working on your changes for now but you also dont want to lose them, so you stash them somewhere temp. and then fix the bug and then restore those changes.
+
+
+To stash the unsaved changes:
+    git stash save "message"
+    git stash -u (also includes untracked file.)
+
+To view the diff. stashes that you've got:
+    git stash list
+
+To restore the stash (recent):   [This restores the unsaved data that you stashed]
+    git stash pop               # applying and removing the most recent stash 
+    git stash apply             # applying the most recent stash 
+    git stash apply stash@{2}   # applying a specific stash 
+
+To remove stashes:
+    git stash drop  # drops recent stash 
+    git stash drop stash@{1}   # drops a specific stash 
+    git stash clear   # clears all stashes 
+
+To view stash content:
+    git stash show   # shows files in the latest stash 
+
+
+It is recommended to keep only one stash at a time (else just create a branch and work that way) 

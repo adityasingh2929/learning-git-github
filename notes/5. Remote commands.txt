@@ -1,0 +1,13 @@
+
+
+1. View Remotes:
+    git remote -v      (shows the github repo you're connected to) (its name is set to origin by you as that name is kind of like a convention)
+
+2. Add Remote:
+    git remote add origin <website-link>
+
+3. Change Remote:
+    git remote set-url origin <website-link>
+
+4. Remove Remote: (lets say origin)
+    git remote remove origin 

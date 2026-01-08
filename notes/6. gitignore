@@ -1,0 +1,19 @@
+Creating ".gitignore" : touch .gitignore 
+
+We use ".gitignore" file to prevent git from tracking certain (large) files.
+    by either using their name.ext (filename.dat)
+    or by using their extension pattern (ex: *.dat)
+    we can also ignore the folders (venv) -> (ex: foldername/)
+
+
+We just type that file name into it and then git stops tracking it.
+
+We also ignore the virtual-env as its got information about packages installed on your local devices, which can change from computer to computer.
+
+
+
+
+# EX: if I've ignored all the .log files there are but I want one .log file to be tracked then I can do this:
+    *.log
+    ! important.log 
+
